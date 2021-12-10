@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    NSTimer *loadingTimer;
+    int count;
+}
+@property (weak, nonatomic) IBOutlet UIImageView *LogoJPG;
+@property (weak, nonatomic) IBOutlet UILabel *MainTitle;
 
 
 @end

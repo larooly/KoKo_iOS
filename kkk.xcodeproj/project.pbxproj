@@ -16,6 +16,17 @@
 		5100C2B324735BB40068DA10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100C2B224735BB40068DA10 /* main.m */; };
 		5100C2BD24735BB40068DA10 /* kkkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100C2BC24735BB40068DA10 /* kkkTests.m */; };
 		5100C2C824735BB40068DA10 /* kkkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100C2C724735BB40068DA10 /* kkkUITests.m */; };
+		510805FC2484F9D500754A63 /* background-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510805FB2484F9D500754A63 /* background-2.jpg */; };
+		5160FE452489E2C2002A3DAB /* cool-loading-animated-gif-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5160FE442489E2C2002A3DAB /* cool-loading-animated-gif-1.gif */; };
+		5160FEEF248A0A13002A3DAB /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160FEEB248A0A12002A3DAB /* FLAnimatedImage.m */; };
+		5160FEF0248A0A13002A3DAB /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5160FEEC248A0A12002A3DAB /* FLAnimatedImageView.m */; };
+		516FAA54247DEC6800DB8E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516FAA53247DEC6800DB8E5C /* Assets.xcassets */; };
+		516FAA56247DF05300DB8E5C /* caticon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 516FAA55247DF05200DB8E5C /* caticon.jpg */; };
+		516FAA59247DF19400DB8E5C /* Maplestory Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516FAA58247DF19000DB8E5C /* Maplestory Bold.ttf */; };
+		516FAA5A247DF19700DB8E5C /* Maplestory Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516FAA57247DF19000DB8E5C /* Maplestory Light.ttf */; };
+		516FAA5D247DFA3C00DB8E5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FAA5C247DFA3C00DB8E5C /* MainViewController.m */; };
+		516FAA60247DFA5700DB8E5C /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FAA5F247DFA5700DB8E5C /* CanvasViewController.m */; };
+		516FAA63247E323700DB8E5C /* PenSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FAA62247E323700DB8E5C /* PenSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5100C29D24735BB30068DA10 /* kkk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kkk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5100C29D24735BB30068DA10 /* KoKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoKo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5100C2A024735BB30068DA10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5100C2A124735BB30068DA10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5100C2A324735BB30068DA10 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +65,24 @@
 		5100C2C324735BB40068DA10 /* kkkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kkkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5100C2C724735BB40068DA10 /* kkkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkkUITests.m; sourceTree = "<group>"; };
 		5100C2C924735BB40068DA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510805FB2484F9D500754A63 /* background-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-2.jpg"; sourceTree = "<group>"; };
+		5160FE442489E2C2002A3DAB /* cool-loading-animated-gif-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cool-loading-animated-gif-1.gif"; sourceTree = "<group>"; };
+		5160FEE7248A06F2002A3DAB /* FLAnimatedImage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FLAnimatedImage; path = "../../Downloads/FLAnimatedImage-master/FLAnimatedImage"; sourceTree = "<group>"; };
+		5160FEE9248A0726002A3DAB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5160FEEB248A0A12002A3DAB /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImage.m"; sourceTree = "<group>"; };
+		5160FEEC248A0A12002A3DAB /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImageView.m"; sourceTree = "<group>"; };
+		5160FEED248A0A13002A3DAB /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImageView.h"; sourceTree = "<group>"; };
+		5160FEEE248A0A13002A3DAB /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImage.h"; sourceTree = "<group>"; };
+		516FAA53247DEC6800DB8E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		516FAA55247DF05200DB8E5C /* caticon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caticon.jpg; sourceTree = "<group>"; };
+		516FAA57247DF19000DB8E5C /* Maplestory Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maplestory Light.ttf"; sourceTree = "<group>"; };
+		516FAA58247DF19000DB8E5C /* Maplestory Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maplestory Bold.ttf"; sourceTree = "<group>"; };
+		516FAA5B247DFA3C00DB8E5C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		516FAA5C247DFA3C00DB8E5C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		516FAA5E247DFA5700DB8E5C /* CanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		516FAA5F247DFA5700DB8E5C /* CanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		516FAA61247E323700DB8E5C /* PenSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenSettingViewController.h; sourceTree = "<group>"; };
+		516FAA62247E323700DB8E5C /* PenSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +117,14 @@
 				5100C2BB24735BB40068DA10 /* kkkTests */,
 				5100C2C624735BB40068DA10 /* kkkUITests */,
 				5100C29E24735BB30068DA10 /* Products */,
+				5160FE91248A008E002A3DAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5100C29E24735BB30068DA10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5100C29D24735BB30068DA10 /* kkk.app */,
+				5100C29D24735BB30068DA10 /* KoKo.app */,
 				5100C2B824735BB40068DA10 /* kkkTests.xctest */,
 				5100C2C324735BB40068DA10 /* kkkUITests.xctest */,
 			);
@@ -104,6 +134,16 @@
 		5100C29F24735BB30068DA10 /* kkk */ = {
 			isa = PBXGroup;
 			children = (
+				516FAA53247DEC6800DB8E5C /* Assets.xcassets */,
+				5160FEEE248A0A13002A3DAB /* FLAnimatedImage.h */,
+				5160FEEB248A0A12002A3DAB /* FLAnimatedImage.m */,
+				5160FEED248A0A13002A3DAB /* FLAnimatedImageView.h */,
+				5160FEEC248A0A12002A3DAB /* FLAnimatedImageView.m */,
+				516FAA55247DF05200DB8E5C /* caticon.jpg */,
+				5160FE442489E2C2002A3DAB /* cool-loading-animated-gif-1.gif */,
+				510805FB2484F9D500754A63 /* background-2.jpg */,
+				516FAA58247DF19000DB8E5C /* Maplestory Bold.ttf */,
+				516FAA57247DF19000DB8E5C /* Maplestory Light.ttf */,
 				5100C2A024735BB30068DA10 /* AppDelegate.h */,
 				5100C2A124735BB30068DA10 /* AppDelegate.m */,
 				5100C2A324735BB30068DA10 /* SceneDelegate.h */,
@@ -115,6 +155,12 @@
 				5100C2AE24735BB40068DA10 /* LaunchScreen.storyboard */,
 				5100C2B124735BB40068DA10 /* Info.plist */,
 				5100C2B224735BB40068DA10 /* main.m */,
+				516FAA5B247DFA3C00DB8E5C /* MainViewController.h */,
+				516FAA5C247DFA3C00DB8E5C /* MainViewController.m */,
+				516FAA5E247DFA5700DB8E5C /* CanvasViewController.h */,
+				516FAA5F247DFA5700DB8E5C /* CanvasViewController.m */,
+				516FAA61247E323700DB8E5C /* PenSettingViewController.h */,
+				516FAA62247E323700DB8E5C /* PenSettingViewController.m */,
 			);
 			path = kkk;
 			sourceTree = "<group>";
@@ -137,6 +183,15 @@
 			path = kkkUITests;
 			sourceTree = "<group>";
 		};
+		5160FE91248A008E002A3DAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5160FEE9248A0726002A3DAB /* WebKit.framework */,
+				5160FEE7248A06F2002A3DAB /* FLAnimatedImage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,7 +209,7 @@
 			);
 			name = kkk;
 			productName = kkk;
-			productReference = 5100C29D24735BB30068DA10 /* kkk.app */;
+			productReference = 5100C29D24735BB30068DA10 /* KoKo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5100C2B724735BB40068DA10 /* kkkTests */ = {
@@ -240,8 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516FAA5A247DF19700DB8E5C /* Maplestory Light.ttf in Resources */,
+				5160FE452489E2C2002A3DAB /* cool-loading-animated-gif-1.gif in Resources */,
+				516FAA56247DF05300DB8E5C /* caticon.jpg in Resources */,
 				5100C2B024735BB40068DA10 /* LaunchScreen.storyboard in Resources */,
 				5100C2AD24735BB40068DA10 /* Assets.xcassets in Resources */,
+				516FAA54247DEC6800DB8E5C /* Assets.xcassets in Resources */,
+				516FAA59247DF19400DB8E5C /* Maplestory Bold.ttf in Resources */,
+				510805FC2484F9D500754A63 /* background-2.jpg in Resources */,
 				5100C2AB24735BB30068DA10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5100C2A824735BB30068DA10 /* ViewController.m in Sources */,
+				516FAA63247E323700DB8E5C /* PenSettingViewController.m in Sources */,
+				5160FEF0248A0A13002A3DAB /* FLAnimatedImageView.m in Sources */,
 				5100C2A224735BB30068DA10 /* AppDelegate.m in Sources */,
+				516FAA60247DFA5700DB8E5C /* CanvasViewController.m in Sources */,
+				5160FEEF248A0A13002A3DAB /* FLAnimatedImage.m in Sources */,
 				5100C2B324735BB40068DA10 /* main.m in Sources */,
+				516FAA5D247DFA3C00DB8E5C /* MainViewController.m in Sources */,
 				5100C2A524735BB30068DA10 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,15 +505,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XL58DYFGP;
+				DEVELOPMENT_TEAM = XM9NMWX24Z;
 				INFOPLIST_FILE = kkk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.onnuriinfotek.kkk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestKokopaint.KoKo;
+				PRODUCT_NAME = KoKo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,15 +525,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4XL58DYFGP;
+				DEVELOPMENT_TEAM = XM9NMWX24Z;
 				INFOPLIST_FILE = kkk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.onnuriinfotek.kkk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestKokopaint.KoKo;
+				PRODUCT_NAME = KoKo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
